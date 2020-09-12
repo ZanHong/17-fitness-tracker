@@ -27,7 +27,7 @@ module.exports = app => {
       new: true
     })
       .then(dbWorkout => {
-        console.log(dbWorkout);
+        // console.log(dbWorkout);
         res.json(dbWorkout);
       })
       .catch(err => {
